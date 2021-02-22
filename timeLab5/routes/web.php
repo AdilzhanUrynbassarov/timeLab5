@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/info', function () {
-    return view('myName');
+    return view('myName', ['id' => '1 ']);
 });
 
